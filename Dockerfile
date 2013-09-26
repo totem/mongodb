@@ -20,4 +20,4 @@ EXPOSE :27017 28017
 
 ENTRYPOINT ["/usr/bin/mongod"]
 
-CMD ["--config /etc/mongodb/mongodb.conf"]
+CMD ["--config", "/etc/mongodb/mongodb.conf"]
